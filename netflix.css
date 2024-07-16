@@ -153,9 +153,10 @@ nav button {
 
 .secImg video {
     position: absolute;
-    top: 51px;
-    right: 0;
-    width: 555px;
+    top: 89px;
+    right: 66px;
+    width: 420px;
+    height: 302px;
 }
 
 section.first>div {
@@ -243,7 +244,8 @@ footer .questions {
     }
 
     .secImg video {
-        width: 305px;
+        width: 224px;
+        transform: translateY(-98px) translateX(21px);
     }
 
     .hero> :nth-child(1) {
@@ -304,9 +306,4 @@ footer .questions {
     display: flex;
     flex-direction: column;
     gap: 23px;
-}
-img{
-
-    top: 23px;
-    right: 44px;
 }
